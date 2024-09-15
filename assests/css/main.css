@@ -1,0 +1,284 @@
+@font-face {
+  font-family: Montserat;
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Montserat;
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserat;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1165 px;
+  margin: 0 auto;
+  margin-left: 40px;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  padding-top: 40px;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header__elements {
+  display: flex;
+  text-align: center;
+}
+.header__icons {
+  display: flex;
+  text-align: center;
+}
+.header__btns {
+  display: flex;
+  text-align: center;
+}
+.header__search {
+  margin-right: 40px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: #156939;
+  padding: 9px 33px;
+}
+.btn_w {
+  color: #156939;
+  background-color: #fff;
+}
+
+.main__wrap {
+  display: flex;
+  gap: 77px;
+  align-items: flex-end;
+}
+.main__texts {
+  max-width: 523px;
+}
+.main__title {
+  color: #156939;
+  font-size: 68px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.main__text {
+  color: #2C1500;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 110px;
+}
+.main__btns {
+  display: flex;
+}
+.main__btn-subtitile {
+  display: flex;
+  color: gray;
+  font-style: 24px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+.main__btn-subtitile_p::before {
+  content: "";
+  display: flex;
+  background: url(../img/arrow-back-outline\ \(1\)\ 1.svg);
+  width: 32px;
+  height: 32px;
+  margin-right: 9px;
+}
+.main__btn-subtitile_n::after {
+  content: "";
+  display: flex;
+  background: url(../img/arrow-back-outline\ \(1\)\ 1.svg);
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  transform: rotate(180deg);
+}
+
+.advanteges {
+  padding: 142px 0;
+}
+.advanteges__row {
+  display: flex;
+  gap: 32px;
+}
+.advanteges__card {
+  padding: 16px 20px;
+  border: 1px solid #e0e0e0;
+}
+.advanteges__block {
+  display: flex;
+  gap: 19px;
+}
+.advanteges__titile {
+  color: #156939;
+  font-style: 19px;
+  font-weight: 800;
+  max-width: 108px;
+}
+.advanteges__text {
+  width: 236px;
+  height: 48px;
+  color: #2C1500;
+  opacity: 50%;
+  font-size: 10px;
+}
+.advanteges__head {
+  padding: 16px 20px;
+  border: 1px solid #e0e0e0;
+}
+.advanteges__plant {
+  padding: 16px 20px;
+  border: 1px solid #e0e0e0;
+}
+.advanteges__mony {
+  padding: 16px 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.sell__title {
+  font-weight: 800;
+}
+.sell__row {
+  display: flex;
+  gap: 29px;
+}
+.sell__item {
+  display: block;
+}
+.sell__name {
+  padding-top: 19px;
+  text-align: center;
+}
+.sell__price {
+  padding-top: 9px;
+  text-align: center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 24px;
+  opacity: 50%;
+}
+
+.advertising {
+  margin-top: 45px;
+}
+.advertising__title {
+  text-transform: uppercase;
+  font-weight: 800;
+  width: 522px;
+}
+.advertising__text {
+  color: #2C1500;
+  font-style: 10px;
+  font-weight: 400;
+  padding-top: 16px;
+  width: 506;
+  height: 140px;
+}
+.advertising__page {
+  display: flex;
+  gap: 84px;
+}
+.advertising__img {
+  padding-top: 30px;
+}
+.advertising__img2 {
+  width: 513px;
+  height: 204px;
+  margin-top: -200px;
+}
+
+.last {
+  margin-top: 300px;
+  background-color: #F3F4F6;
+}
+.last__row {
+  display: flex;
+}
+.last__block {
+  display: block;
+}
+.last__titile {
+  width: 585px;
+  padding-top: 88px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.last__btn {
+  margin-top: 43px;
+  width: 152px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.last__img {
+  padding-left: 36px;
+}
+
+.footer {
+  margin-top: 140px;
+  max-width: 1200px;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__block {
+  display: block;
+}
+.footer__titile {
+  text-transform: uppercase;
+  color: #156963;
+  font-weight: 800;
+}
+.footer__titile_2 {
+  text-transform: lowercase;
+  color: black;
+  margin-bottom: 20px;
+}
+.footer__under-title {
+  margin-top: 24px;
+}
+.footer__text {
+  margin-top: 10px;
+  opacity: 50%;
+}
+.footer__name {
+  margin-bottom: 14px;
+}
+.footer__btn {
+  text-transform: lowercase;
+  font-weight: 400;
+  padding: 4px 12px;
+  text-align: center;
+  width: 80px;
+  height: 22px;
+  border-radius: 2px;
+}
+
+.form {
+  display: block;
+  margin-bottom: 14px;
+}/*# sourceMappingURL=main.css.map */
